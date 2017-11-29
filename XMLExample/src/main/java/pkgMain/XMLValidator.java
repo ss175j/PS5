@@ -27,7 +27,7 @@ public class XMLValidator {
 
 	public static void main(String[] args) {
 
-		XMLValidator XMLValidator = new XMLValidator();
+		XMLValidator XMLValidator = new XMLValidator(); 
 		boolean valid = XMLValidator.validate(XML_FILE, SCHEMA_FILE);
 
 		System.out.printf("%s validation = %b.", XML_FILE, valid);
